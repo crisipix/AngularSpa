@@ -94,6 +94,7 @@
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="ext-modules\cwFramework\cwFramework.css" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\bootstrap.js" />
