@@ -81,6 +81,8 @@
     <Content Include="ext-modules\cwMenu\cwMenuModule.js" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\kayak.jpg" />
+    <Content Include="images\pika.jpg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
