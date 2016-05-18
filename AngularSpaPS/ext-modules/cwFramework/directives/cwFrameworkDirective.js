@@ -6,7 +6,11 @@
         return {
            // relative : 'A',
             transclude: false,
-            scope: {},
+            scope: {
+                title : '@',
+                subtitle : '@',
+                iconFile : '@',
+            },
             controller: 'cwFrameworkController',
             templateUrl: './ext-modules/cwFramework/directives/cwFrameworkTemplate.html'
         };

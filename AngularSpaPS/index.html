@@ -1,7 +1,8 @@
 ﻿<!DOCTYPE html>
 <html ng-app="app">
 <head>
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>WATER WORLD</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="app/app.css" rel="stylesheet" />
@@ -9,7 +10,7 @@
 </head>
 <body class="container-fluid">
 
-    <script src="Scripts/jquery-2.2.3.min.js"></script>
+    <script src="Scripts/jquery-2.2.3.min.js"></script>    
     <script src="Scripts/angular.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
 
@@ -19,11 +20,14 @@
 
     <script src="ext-modules/cwFramework/cwFrameworkModule.js"></script>
     <script src="ext-modules/cwFramework/directives/cwFrameworkController.js"></script>
-    <script src="ext-modules/cwFramework/directives/cwFrameworkDirective.js"></script>
+    <script src="ext-modules/cwFramework/directives/cwFrameworkDirective.js"></script>    
 
     <script src="app/app.js"></script>
+    <script src="app/appConfig.js"></script>
     HI
-    <div cw-framework></div>
-    <cw-framework></cw-framework>
+    <div cw-framework title="Whitewater Adventures" subtitle="Administrative App" icon-file="/images/pika.jpg"></div>
+    <cw-framework title="Whitewater Adventures" subtitle="Administrative App" icon-file="../../../images/pika.jpg">
+
+    </cw-framework>
 </body>
 </html>

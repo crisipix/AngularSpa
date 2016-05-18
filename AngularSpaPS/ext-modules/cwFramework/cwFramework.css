@@ -23,10 +23,30 @@
     color: #111;
     margin-top : 6px;
     font-size : 22px;
+    text-align: center;
 }
 
 .ps-logo-subtitle {
     font-size : 13px;
     margin-top : -13px;
+
+}
+
+.ps-right-side-controls {
+     line-height:60px;
+}
+ps-right-side-controls > div{
+    text-align : center;
+
+}
+
+@media screen and (min-width: 768px) {
+    ps-right-side-controls > div{
+    text-align : right;
+    }
+    .ps-logo-area{
+    text-align : left;
+    }
+
 
 }
