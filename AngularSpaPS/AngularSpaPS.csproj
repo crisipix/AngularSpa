@@ -79,7 +79,13 @@
     <Content Include="ext-modules\cwFramework\directives\cwFrameworkController.js" />
     <Content Include="ext-modules\cwFramework\directives\cwFrameworkDirective.js" />
     <Content Include="ext-modules\cwFramework\directives\cwFrameworkTemplate.html" />
+    <Content Include="ext-modules\cwMenu\cwMenu.css" />
     <Content Include="ext-modules\cwMenu\cwMenuModule.js" />
+    <Content Include="ext-modules\cwMenu\directives\cwMenuController.js" />
+    <Content Include="ext-modules\cwMenu\directives\cwMenuDirective.js" />
+    <Content Include="ext-modules\cwMenu\directives\cwMenuItemDirective.js" />
+    <Content Include="ext-modules\cwMenu\directives\cwMenuItemTemplate.html" />
+    <Content Include="ext-modules\cwMenu\directives\cwMenuTemplate.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\kayak.jpg" />

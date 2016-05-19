@@ -1,12 +1,20 @@
 ﻿<div class="ps-title-bar"> 
     <div class="row">
         <div class="ps-logo-area col-sm-6">
-            <img class="ps-icon" ng-src="{{iconFile}}">
+            <img class="ps-icon" ng-src="{{vm.iconFile}}">
             <div class="ps-title-area">                
-                <p class="ps-logo-title">{{title}}</p>
-                <p class="ps-logo-subtitle">{{subtitle}}</p>
+                <p class="ps-logo-title">{{vm.title}}</p>
+                <p class="ps-logo-subtitle">{{vm.subtitle}}</p>
             </div>
+            <div ng-if="vm.isMenuButtonVisible" ng-click="vm.menuButtonClicked()" class="ps-collapsed-menu pull-right">
+                <button type="button" class="btn ps-nav-button">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+            </div>
+
         </div>
+
         <div class="ps-right-side-controls col-sm-6">
             <div>
                 <button class="btn btn-primary">Button 1</button>
@@ -16,3 +24,8 @@
         </div>    
     </div>
 </div>
+<div ng-transclude></div>
+
+<!--<div style="color:red; font-size:44px; left:200px; top:200px; position:absolute">
+    {{vm.routeString}}
+</div>-->

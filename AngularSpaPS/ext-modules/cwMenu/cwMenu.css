@@ -1,0 +1,66 @@
+﻿.ps-menu-area {
+    position : relative;
+    background-color : #333;
+    color : #ccc;
+    padding-left : 0;
+    width : 200px;
+    min-height : 100vh; /*100percent vertical*/
+    padding-top : 30px;
+}
+
+.ps-menu-area ul{
+    padding-left : 0;  /*this makes the UL item shift all the way to the left. */
+}
+
+
+.ps-menu-area .btn:hover {
+    color:#ccc;
+    
+}
+
+ .ps-menu{
+     list-style-type: none;
+     vertical-align: top;
+ }
+
+ .ps-menu ul{
+     display: inline;
+     list-style-type: none;
+     padding-left: 0;
+ }
+
+ .ps-menu li{
+     line-height:3em; /*3 times the size of the font*/
+     cursor: pointer;
+ }
+
+ .ps-menu li div{
+     display: inline-block;
+     width:90%;
+     padding-left : 16px;
+ }
+
+ /*no text select*/
+ .ps-noselect{
+     -webkit-touch-callout : none;
+     -webkit-user-select : none;
+     -moz-user-select : none;
+     -ms-user-select : none;
+    user-select : none;         
+ }
+
+  .ps-selectable-item:hover {
+      background-color : #555;
+}
+
+ .ps-menu-icon{
+     margin-right: 10px;
+ }
+
+ ps-menu-active-indicator
+ {
+     float: right;
+     color : #DDD;
+     margin-right:0;
+     margin-top: 8px;
+ }

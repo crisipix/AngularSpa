@@ -19,6 +19,10 @@
     border : 1px solid #999;
 }
 
+.ps-logo-area{
+    /*text-align:center;*/
+}
+
 .ps-logo-title {
     color: #111;
     margin-top : 6px;
@@ -35,9 +39,8 @@
 .ps-right-side-controls {
      line-height:60px;
 }
-ps-right-side-controls > div{
+.ps-right-side-controls > div{
     text-align : center;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -47,6 +50,30 @@ ps-right-side-controls > div{
     .ps-logo-area{
     text-align : left;
     }
+}
+
+/* When the screen is small remove the icon and shrink the font*/
+@media screen and (max-width: 430px) {
+    .ps-icon{
+    display : none;
+    }
+    .ps-logo-title{
+    font-size:18px;
+    }
+}
 
 
+.ps-nav-button {
+     height:40px;
+    width:60px;
+    margin-top:10px;
+    border:1px solid #888;
+    padding :0;
+    font-size: 26px;
+    color:#777;
+}
+
+.ps-collapsed-menu {
+   display:inline-block;
+   height:100%; /*100% of the row*/ 
 }

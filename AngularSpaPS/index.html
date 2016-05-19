@@ -7,6 +7,7 @@
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="app/app.css" rel="stylesheet" />
     <link href="ext-modules/cwFramework/cwFramework.css" rel="stylesheet" />
+    <link href="ext-modules/cwMenu/cwMenu.css" rel="stylesheet" />
 </head>
 <body class="container-fluid">
 
@@ -15,6 +16,9 @@
     <script src="Scripts/bootstrap.min.js"></script>
 
     <script src="ext-modules/cwMenu/cwMenuModule.js"></script>
+    <script src="ext-modules/cwMenu/directives/cwMenuController.js"></script>
+    <script src="ext-modules/cwMenu/directives/cwMenuDirective.js"></script>
+    <script src="ext-modules/cwMenu/directives/cwMenuItemDirective.js"></script>
 
     <script src="ext-modules/cwDashboard/cwDashboardModule.js"></script>
 
@@ -27,7 +31,11 @@
     HI
     <div cw-framework title="Whitewater Adventures" subtitle="Administrative App" icon-file="/images/pika.jpg"></div>
     <cw-framework title="Whitewater Adventures" subtitle="Administrative App" icon-file="../../../images/pika.jpg">
-
+        <cw-menu>
+            <cw-menu-item label="Dashboard" icon="fa-dashboard" route="dashboard"></cw-menu-item>
+            <cw-menu-item label="Locations" icon="fa-location-arrow" route="location"></cw-menu-item>
+            <cw-menu-item label="Raft Guides" icon="fa-user" route="guides"></cw-menu-item>
+        </cw-menu>
     </cw-framework>
 </body>
 </html>
